@@ -1,0 +1,26 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 10px; /* space between grid items */
+}
+
+.product {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+}
+
+.product-details {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  font-size: 22px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  transform: scale(0.8);
+}
+
